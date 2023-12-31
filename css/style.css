@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;1,900&family=Oswald:wght@700&family=Raleway:ital,wght@0,400;0,700;1,400&family=Rubik+Lines&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Bitter:ital,wght@0,100;1,900&family=Oswald:wght@700&family=Raleway:ital,wght@0,400;0,700;1,400&family=Rubik+Lines&display=swap');
+
+
+
+
+
+body {
+    background-color: brown;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+h1 {
+    width: 45.5%;
+    background-color: wheat;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+#p-div0-1 {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: wheat;
+    width: 50%;
+    
+}
+
+#img-intro {
+    border-radius: 100%;
+    
+
+    
+    
+}
+
+#section1 { 
+    display: flex;
+    justify-content: end;
+}
+
+#div1 {
+    display: grid;
+    grid-template-columns: auto auto; /* Deux colonnes de largeur automatique */
+    grid-gap: 10px; /* Espacement entre les colonnes */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0%;
+}
+
+#div1-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#div1-2 {
+    width: 33%;
+    display: flex;
+    justify-content: end;
+}
+
+#p-div1-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-top: 50px;
+    font-family: 'raleway';
+    font-weight: 900;
+    font-size: 35px;
+    color: wheat;
+    width: 50%;
+    text-align: center;
+}
+
+#h2-1 {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: wheat;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 50%;
+    
+
+}
+
+#div2 {
+    display: flex;
+    justify-content: center;
+}
+
+#div0-1 {
+    display: flex;
+    justify-content: center;
+}
+
+#div3 {
+    display: flex;
+    justify-content: start;
+    margin-left: 25%;
+}
+
+#liste1 {
+    margin: 30px;
+    color: wheat;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* #liste1:hover {
+    color: black;
+} */
+
+
+/* chatgpt */
+#liste1 a { 
+    color: inherit; /* hérite de la couleur du texte parent */
+    text-decoration: none;
+}
+
+#liste1:visited {
+    color: black;
+}
+
+/* a */
+
+
+
+#liste1 a:hover {
+    color: black;
+}
+
+#liste1 a:active {
+    /* Styles pour l'état actif (clic) si nécessaire */
+    color: black;
+}
+
+a:visited {
+    color: wheat;
+}
