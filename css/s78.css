@@ -13,7 +13,7 @@
 
 
 
-body {
+body { 
     background-color: brown;
     background-repeat: no-repeat;
 }
@@ -26,7 +26,7 @@ header {
     
 }
 
-#div-back {
+/* #div-back {
     width: 25%;
     display: flex;
     justify-content: end;
@@ -34,7 +34,56 @@ header {
 
 #div-h1 {
     width: 75%;
+} */
+
+/* Styles de base pour div-back et div-h1 */
+#div-back {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
 }
+
+#div-h1 {
+    width: 80%; /* Ajustez la largeur selon vos besoins pour les écrans de petite taille */
+        padding: 20px; /* Ajustez le rembourrage selon vos besoins pour les écrans de petite taille */
+}
+
+/* Styles spécifiques pour les écrans de petite taille */
+@media only screen and (max-width: 600px) {
+
+    header {
+        margin-top: 0px;
+        flex-direction: column; /* Change la direction de la flexbox pour inverser l'ordre des divs */
+    }
+
+    #div-back {
+        width: 20%;
+        margin-top: 10px;
+        justify-content: center;
+        padding-right: 0; /* Optionnel : annule le padding à droite pour occuper toute la largeur */
+    }
+
+    #div-h1 {
+        overflow-x: hidden;
+        width: 100%;
+        text-align: center; /* Centrer le texte */
+        padding: 0; /* Optionnel : annule le padding à gauche pour occuper toute la largeur */
+    }
+
+    #div-h1 h1 {
+        width: 80%; /* Ajustez pour que le h1 occupe 80% de la largeur de div-h1 sur les écrans de petite taille */
+        margin: 0 auto; /* Centrer le h1 horizontalement */
+        border: 10px solid black; /* Ajoutez ou ajustez la bordure selon vos besoins */
+        box-sizing: border-box; /* Inclut la bordure dans la largeur et la hauteur de l'élément */
+        padding: 10px; /* Ajoutez du padding selon vos besoins */
+    }
+}
+
+
+
+
 
 #arrow {
     width: 200px;
@@ -51,9 +100,13 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 50px;
-    
-
 }
+
+/* @media only screen and (max-width: 600px) {
+    #h1 {
+        margin: 0 auto;
+    }
+} */
 
 h2 {
     margin-top: 80px;
@@ -75,8 +128,14 @@ h2 {
     border-width: 3px;
     border-color: black;
     width: 50%;
-    
+}
 
+/* Styles spécifiques pour les écrans de petite taille */
+@media only screen and (max-width: 600px) {
+    #h2-1 {
+        width: 73.5%; /* Ajustez la largeur selon vos besoins pour les écrans de petite taille */
+        padding: 10px; /* Ajustez le rembourrage selon vos besoins pour les écrans de petite taille */
+    }
 }
 
 #p-div1-1 {
@@ -94,9 +153,15 @@ h2 {
     text-align: center, justify;
     padding-left: 25%;
     padding-bottom: 50px;
-    
-    
-    
+}
+
+/* Styles spécifiques pour les écrans de petite taille */
+@media only screen and (max-width: 600px) {
+    #p-div1-1 {
+        width: 80%; /* Ajustez la largeur selon vos besoins pour les écrans de petite taille */
+        padding: 10px; /* Ajustez le rembourrage selon vos besoins pour les écrans de petite taille */
+        font-size: 20px;
+    }
 }
 
 #div3 {
@@ -128,4 +193,18 @@ h2 {
 
 #coins {
     border-radius: 10px;
+}
+
+/* Styles spécifiques pour les écrans de petite taille */
+@media only screen and (max-width: 600px) {
+    #div3,
+    #div3-2 {
+        flex-direction: column; /* Change la direction de la flexbox pour empiler les images verticalement */
+        align-items: center; /* Centre les images horizontalement */
+    }
+
+    #div3 img,
+    #div3-2 img {
+        width: 100%; /* Ajustez la largeur de l'image pour les écrans de petite taille */
+    }
 }
