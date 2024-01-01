@@ -3,7 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Bitter:ital,wght@0,100;1,900&family=Oswald:wght@700&family=Raleway:ital,wght@0,400;0,700;1,400&family=Rubik+Lines&display=swap');
 
 
-
+#favicon {
+    border-radius: 50%; /* Ajoutez une bordure arrondie */
+}
+    
 
 
 body {
