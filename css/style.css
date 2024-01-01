@@ -21,6 +21,7 @@ header {
 }
 
 
+/* Styles de base pour tous les écrans */
 h1 {
     width: 45.5%;
     background-color: wheat;
@@ -30,7 +31,14 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 50px;
+}
 
+/* Styles spécifiques pour les écrans de petite taille */
+@media only screen and (max-width: 600px) {
+    h1 {
+        width: 80%; /* Ajustez la largeur selon vos besoins pour les écrans de petite taille */
+        padding: 20px; /* Ajustez le rembourrage selon vos besoins pour les écrans de petite taille */
+    }
 }
 
 #p-div0-1 {
@@ -93,6 +101,15 @@ h1 {
     text-align: center;
 }
 
+/* Styles spécifiques pour les écrans de petite taille */
+@media only screen and (max-width: 600px) {
+    #p-div1-1 {
+        width: 80%; /* Ajustez la largeur selon vos besoins pour les écrans de petite taille */
+        padding: 20px; /* Ajustez le rembourrage selon vos besoins pour les écrans de petite taille */
+        font-size: 20px;
+    }
+}
+
 #h2-1 {
     margin-top: -50px;
     display: flex;
@@ -105,6 +122,14 @@ h1 {
     width: 50%;
     
 
+}
+
+/* Styles spécifiques pour les écrans de petite taille */
+@media only screen and (max-width: 600px) {
+    #h2-1 {
+        width: 80%; /* Ajustez la largeur selon vos besoins pour les écrans de petite taille */
+        padding: 20px; /* Ajustez le rembourrage selon vos besoins pour les écrans de petite taille */
+    }
 }
 
 #div2 {
@@ -123,6 +148,12 @@ h1 {
     margin-left: 25%;
 }
 
+@media only screen and (max-width: 600px) {
+    #div3 {
+        margin-left: 0; /* Réinitialise la marge pour les écrans de petite taille */
+    }
+}
+
 #liste1 {
     margin: 30px;
     color: wheat;
@@ -134,6 +165,16 @@ h1 {
     font-size: 30px;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+    #liste1 {
+        width: 80%; /* Ajustez la largeur selon vos besoins pour les écrans de petite taille */
+        padding: 20px; /* Ajustez le rembourrage selon vos besoins pour les écrans de petite taille */
+        font-size: 20px;
+        text-align: left; /* Positionne le texte à gauche de l'écran */
+    }
+}
+
 
 /* #liste1:hover {
     color: black;
