@@ -82,6 +82,140 @@ header {
 }
 
 
+/* Styles spécifiques pour les écrans de moyenne taille */
+@media only screen and (max-width: 1024px) {
+
+    header {
+        margin-top: 0px;
+        flex-direction: column; /* Change la direction de la flexbox pour inverser l'ordre des divs */
+    }
+
+    #div-back {
+        width: 20%;
+        margin-top: 10px;
+        justify-content: center;
+        padding-right: 0; /* Optionnel : annule le padding à droite pour occuper toute la largeur */
+    }
+
+    #div-h1 {
+        overflow-x: hidden;
+        width: 100%;
+        text-align: center; /* Centrer le texte */
+        padding: 0; /* Optionnel : annule le padding à gauche pour occuper toute la largeur */
+    }
+
+    #div-h1 h1 {
+        width: 80%; /* Ajustez pour que le h1 occupe 80% de la largeur de div-h1 sur les écrans de petite taille */
+        margin: 0 auto; /* Centrer le h1 horizontalement */
+        border: 10px solid black; /* Ajoutez ou ajustez la bordure selon vos besoins */
+        box-sizing: border-box; /* Inclut la bordure dans la largeur et la hauteur de l'élément */
+        padding: 10px; /* Ajoutez du padding selon vos besoins */
+    }
+}
+
+
+/* Styles spécifiques pour les écrans de grande taille */
+@media only screen and (max-width: 1400px) {
+
+    header {
+        margin-top: 0px;
+        flex-direction: column; /* Change la direction de la flexbox pour inverser l'ordre des divs */
+    }
+
+    #div-back {
+        width: 20%;
+        margin-top: 10px;
+        justify-content: center;
+        padding-right: 0; /* Optionnel : annule le padding à droite pour occuper toute la largeur */
+    }
+
+    #div-h1 {
+        overflow-x: hidden;
+        width: 100%;
+        text-align: center; /* Centrer le texte */
+        padding: 0; /* Optionnel : annule le padding à gauche pour occuper toute la largeur */
+    }
+
+    #div-h1 h1 {
+        width: 80%; /* Ajustez pour que le h1 occupe 80% de la largeur de div-h1 sur les écrans de petite taille */
+        margin: 0 auto; /* Centrer le h1 horizontalement */
+        border: 10px solid black; /* Ajoutez ou ajustez la bordure selon vos besoins */
+        box-sizing: border-box; /* Inclut la bordure dans la largeur et la hauteur de l'élément */
+        padding: 10px; /* Ajoutez du padding selon vos besoins */
+    }
+}
+
+
+/* Styles spécifiques pour les écrans de grande taille */
+@media only screen and (max-width: 2000px) {
+    body {
+        /* Ajoutez des styles spécifiques aux tablettes ici */
+    }
+
+    header {
+        margin-top: 50px;
+    }
+
+    h1 {
+        width: 60%;
+        padding: 40px;
+    }
+
+    #p-div1-1 {
+        width: 70%;
+        padding: 40px;
+        font-size: 25px;
+    }
+
+    #h2-1 {
+        width: 60%;
+        padding: 20px;
+    }
+
+    #div3 {
+        margin-left: 15%;
+    }
+
+    #liste1 {
+        width: 70%;
+        padding: 20px;
+        font-size: 25px;
+    }
+}
+
+
+
+/* Styles spécifiques pour les écrans de très grande taille */
+@media only screen and (max-width: 2000px) {
+
+    header {
+        margin-top: 0px;
+        flex-direction: column; /* Change la direction de la flexbox pour inverser l'ordre des divs */
+    }
+
+    #div-back {
+        width: 20%;
+        margin-top: 10px;
+        justify-content: center;
+        padding-right: 0; /* Optionnel : annule le padding à droite pour occuper toute la largeur */
+    }
+
+    #div-h1 {
+        overflow-x: hidden;
+        width: 100%;
+        text-align: center; /* Centrer le texte */
+        padding: 0; /* Optionnel : annule le padding à gauche pour occuper toute la largeur */
+    }
+
+    #div-h1 h1 {
+        width: 80%; /* Ajustez pour que le h1 occupe 80% de la largeur de div-h1 sur les écrans de petite taille */
+        margin: 0 auto; /* Centrer le h1 horizontalement */
+        border: 10px solid black; /* Ajoutez ou ajustez la bordure selon vos besoins */
+        box-sizing: border-box; /* Inclut la bordure dans la largeur et la hauteur de l'élément */
+        padding: 10px; /* Ajoutez du padding selon vos besoins */
+    }
+}
+
 
 
 
@@ -101,6 +235,52 @@ h1 {
     justify-content: center;
     padding: 50px;
 }
+
+
+/* Styles généraux pour tous les écrans */
+body {
+    background-color: brown;
+    background-repeat: no-repeat;
+}
+
+/* Styles spécifiques pour les écrans de tablette */
+@media only screen and (max-width: 1024px) {
+    body {
+        /* Ajoutez des styles spécifiques aux tablettes ici */
+    }
+
+    header {
+        margin-top: 50px;
+    }
+
+    h1 {
+        width: 60%;
+        padding: 40px;
+    }
+
+    #p-div1-1 {
+        width: 70%;
+        padding: 40px;
+        font-size: 25px;
+    }
+
+    #h2-1 {
+        width: 60%;
+        padding: 20px;
+    }
+
+    #div3 {
+        margin-left: 15%;
+    }
+
+    #liste1 {
+        width: 70%;
+        padding: 20px;
+        font-size: 25px;
+    }
+}
+
+
 
 /* @media only screen and (max-width: 600px) {
     #h1 {
