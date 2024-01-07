@@ -271,6 +271,13 @@ body {
     }
 }
 
+/* Styles spécifiques pour les écrans de petite taille */
+@media only screen and (max-width: 1000px) {
+    #h2-1 {
+        text-align: center;
+    }
+}
+
 #div2 {
     display: flex;
     justify-content: center;
