@@ -640,3 +640,31 @@ body {
         font-size: 25px;
     } */
 }
+
+
+#arrow-button {
+    /* Ajoute ici tes styles pour le bouton */
+    background-color: wheat;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 10px;
+    margin-bottom: 20%;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #arrow-button {
+        margin-left: 35%;
+        
+    }
+}
+
+@media only screen and (max-width: 2000px) {
+
+    #arrow-button {
+        margin-left: 40%;
+        
+    }
+}
